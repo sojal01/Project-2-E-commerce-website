@@ -15,20 +15,31 @@
     <div class="header">
         <div class="container">
             <div class="navbar">
+            <div class="nav-items">
             <a href="index.html">Home</a>
             <a href="products.html">Products </a>
             <a href="">About</a>
             <a href="">Contact</a>
             <a href="">Account</a>
-            <a href="carts.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a>
-            </div>  
+            </div>
+        <a href="carts.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a>
+        <label class="menu-icon" for="menu-toggle"><img src="images/menu.png" alt=""></label>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <div class="hidden-nav-items">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products </a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Account</a>
+        </div>  
         </div>
     </div>
 
     <div class="cartSectionWrapper">
         <table>
             <tr>
-                <th>Productl</th>
+                <th>Product</th>
                 <th>Quantity</th>
                 <th>Subtotal</th>
             </tr>
@@ -87,7 +98,7 @@
                     <td>₹60.00</td>
                 </tr>
                 <tr>
-                    <td>Subtotal</td>
+                    <td>Total</td>
                     <td>₹1860.00</td>
                 </tr>
             </table>
